@@ -1,0 +1,47 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "dashboard": "Panel",
+    "users": "Usuarios",
+    "roles": "Roles",
+    "analytics": "Analíticas",
+    "notifications": "Notificaciones",
+    "files": "Archivos",
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "create": "Crear",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "loading": "Cargando...",
+    "noResults": "No se encontraron resultados"
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "totalUsers": "Usuarios Totales",
+    "activeUsers": "Usuarios Activos",
+    "revenue": "Ingresos",
+    "orders": "Pedidos",
+    "recentActivity": "Actividad Reciente",
+    "quickActions": "Acciones Rápidas"
+  },
+  "users": {
+    "title": "Usuarios",
+    "createUser": "Crear Usuario",
+    "editUser": "Editar Usuario",
+    "deleteUser": "Eliminar Usuario",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "role": "Rol",
+    "status": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo"
+  }
+}

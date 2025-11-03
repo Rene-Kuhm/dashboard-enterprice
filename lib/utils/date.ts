@@ -173,3 +173,21 @@ export function isBusinessDay(date: Date): boolean {
   const dayOfWeek = date.getDay()
   return dayOfWeek !== 0 && dayOfWeek !== 6
 }
+
+/**
+ * Format date in human-readable format
+ */
+export function formatDate(date: Date | string | number): string {
+  const dateObj = typeof date === "string" || typeof date === "number" ? new Date(date) : date
+  return dateObj.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })
+}
+
+/**
+ * Format date as relative time (e.g., "2 hours ago")
+ */
+export function formatRelativeTime(date: Date | string | number): string {
+  return getTimeAgo(date)
+}
+
+// Export isToday and isThisWeek from date-fns for testing
+export { isToday, isThisWeek }
