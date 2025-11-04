@@ -30,7 +30,7 @@ export default function LoginPage() {
         }));
 
         toast.success('Login successful!');
-        router.push('/dashboard');
+        router.push('/dashboard-temp');
       } else {
         toast.error('Invalid credentials. Use demo@dashboard.com / demo123');
       }
